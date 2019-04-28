@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link href="css/main.css" rel="stylesheet">
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
@@ -12,15 +13,15 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <img src="<%= static_path(@conn, "static/images/apple-touch-icon.png") %">
-  <link href="static/images/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="static/favicon.ico" rel="icon">
+
+  <link href="/images/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/favicon.ico" rel="icon">
 
  
 
   <title>Title page</title>  
 
-<link href="css/main.css" rel="stylesheet"></head>
+</head>
 
 <body>
 
@@ -36,7 +37,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="./index.html" title="">
-          <img src="static/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
+          <img src="/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
         </a>
       </div>
 
@@ -61,7 +62,7 @@
 
 
 
-<div class="white-text-container background-image-container" style="background-image: url('static/images/img-home.jpg')">
+<div class="white-text-container background-image-container" style="background-image: url('/images/img-home.jpg')">
     <div class="opacity"></div>
     <div class="container">
         <div class="row">
@@ -145,13 +146,13 @@
                         
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img class="img-responsive" src="static/images/img-05.jpg" alt="First slide">
+                                <img class="img-responsive" src="/images/img-05.jpg" alt="First slide">
                             </div>
                             <div class="item">
-                                <img class="img-responsive" src="static/images/img-07.jpg" alt="Second slide">
+                                <img class="img-responsive" src="/images/img-07.jpg" alt="Second slide">
                             </div>
                             <div class="item">
-                                <img class="img-responsive" src="static/images/img-05.jpg" alt="Third slide">
+                                <img class="img-responsive" src="/images/img-05.jpg" alt="Third slide">
                             </div>
                         </div>
                         <ol class="carousel-indicators">
@@ -188,7 +189,7 @@
     <div class="container">
         <div class="row">                   
             <div class="col-md-7">
-                <img class="img-responsive" src="static/images/img-06.png" alt="">
+                <img class="img-responsive" src="/images/img-06.png" alt="">
             </div>
 
             <div class="col-md-5">
@@ -215,14 +216,14 @@
               
             <div class="row">
                 <div class="col-md-4">
-                        <img class="img-responsive page-base-image" src="static/images/logo-01.png" alt="">
+                        <img class="img-responsive page-base-image" src="/images/logo-01.png" alt="">
 
                 </div>
                 <div class="col-md-4">
-                        <img class="img-responsive page-base-image" src="static/images/logo-02.png" alt="">
+                        <img class="img-responsive page-base-image" src="/images/logo-02.png" alt="">
                 </div>
                 <div class="col-md-4">
-                        <img class="img-responsive page-base-image" src="static/images/logo-03.png" alt="">
+                        <img class="img-responsive page-base-image" src="/images/logo-03.png" alt="">
                 </div>
             </div>
             

@@ -17,6 +17,11 @@ defmodule StudiousWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/index.html", PageController, :index
+    get "/about.html", PageController, :about
+    get "/pricing.html", PageController, :pricing
+    get "/contact.html", PageController, :contact
+    get "/download.html", PageController, :download
   end
 
   # Other scopes may use custom stacks.
